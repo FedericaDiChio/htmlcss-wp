@@ -7,12 +7,22 @@
 .container {
     width: 1000px;
     margin: 0 auto;
+    /* background-color: hotpink; */
 }
-
 
 /* header */
 
+
+
 #logo {
- height: 70px;
- padding:10px;
+    height: 70px;
 }
+
+li {
+    
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+    
+}
+
