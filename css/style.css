@@ -61,3 +61,24 @@ body {
     padding-top: 250px;
     padding-left: 30px;
 }
+
+/* Colonne */
+.main-container .columns .col {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.main-container .columns .col:nth-child(2) {
+    width: 60%;
+    padding: 0 20px;
+    background-image:url(./img/banner-2.jpg);
+}
+
+.main-container .columns .col:first-child {
+    background-image: url(./img/img-1.jpg);
+}
+
+.main-container .columns .col:last-child {
+    background-image:url(./img/img-3.jpg)
+}
