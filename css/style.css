@@ -1,28 +1,29 @@
 /* generics */
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.clearfix::after {
+    clear: both;
+    display: table;
+    content: "";
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
-.container {
-    width: 1000px;
-    margin: 0 auto;
-    
-    
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
 }
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 
 /* header */
 #main-header {
@@ -31,7 +32,7 @@ body {
 
 
 #logo {
-    height: 70px;
+    height: 60px;
     
 }
 
@@ -61,7 +62,16 @@ li:last-child {
     background-position: 50%;
     background-size: cover;
     height: 400px;
-    margin: 30px 0;
+    
     
 }
 
+.header-title, .spotlight {
+    margin: 30px 0;
+}
+
+h4 {
+    color:gray;
+    font-size: 14px;
+    font-weight: lighter;
+}
