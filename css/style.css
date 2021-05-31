@@ -106,3 +106,31 @@ footer {
 footer .fa-heart {
     color:red;
 }
+
+/* utility */
+.font-small, a {
+    font-size: 14px;
+}
+
+.font-color, a {
+    color: grey;
+}
+
+.col, .col-text {
+    width: 20%;
+    float: left;
+}
+
+/* da riveder */
+.spotlight, .columns, .overlay {
+    border-radius: 10px;
+}
+
+.main-header, .spotlight, .header-title {
+    margin: 30px 0;
+}
+
+
+.spotlight, .col {
+    background-size: cover;
+}
