@@ -75,6 +75,10 @@ body {
     padding-left: 30px;
 }
 
+.main-container .spotlight .spot-text h2 {
+    font-weight: lighter;
+}
+
 /* Colonne */
 .main-container .columns .col {
     height: 200px;
