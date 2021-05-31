@@ -82,3 +82,15 @@ body {
 .main-container .columns .col:last-child {
     background-image:url(./img/img-3.jpg)
 }
+
+
+/* colonne testo */
+.main-container .columns-text .col-text:nth-child(2) {
+    width: 60%;
+    padding: 0 20px;
+}
+
+.main-container .columns-text .col-text .article-title {
+    margin: 10px 0 10px 0;
+    color: black;
+}
