@@ -47,3 +47,17 @@ body {
 #menu li:last-child {
     padding-right: 0;
 }
+
+/* corpo centrale */
+
+.main-container .spotlight {
+    height: 400px;
+    background-image: url(./img/banner.jpg);
+    background-position: 100%;
+}
+
+.main-container .spotlight .spot-text {
+    color: white;
+    padding-top: 250px;
+    padding-left: 30px;
+}
