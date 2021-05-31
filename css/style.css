@@ -34,17 +34,17 @@ body {
     color: grey;
 }
 
-.col, .col-text {
+div.col, div.col-text {
     width: 20%;
     float: left;
 }
+
 /* header principale */
 #main-header #logo {
     height: 60px;
 }
 
 /* nav */
-
 #menu li {
     list-style-type: none;
     display: inline-block;
@@ -63,51 +63,51 @@ body {
 }
 
 /* corpo centrale */
-.main-container .spotlight {
+.spotlight {
     height: 400px;
     background-image: url("../img/banner.jpg");
     background-position: 100%;
 }
 
-.main-container .spotlight .spot-text {
+.spotlight .spot-text {
     color: white;
     padding-top: 250px;
     padding-left: 30px;
 }
 
-.main-container .spotlight .spot-text h2 {
+.spotlight .spot-text h2 {
     font-weight: lighter;
 }
 
 /* Colonne */
-.main-container .columns .col {
+.columns .col {
     height: 200px;
     background-repeat: no-repeat;
     background-position: 50%;
 }
 
-.main-container .columns .col:nth-child(2) {
+.columns .col:nth-child(2) {
     width: 60%;
     padding: 0 20px;
     background-image:url(../img/banner-2.jpg);
 }
 
-.main-container .columns .col:first-child {
+.columns .col:first-child {
     background-image: url(../img/img-1.jpg);
 }
 
-.main-container .columns .col:last-child {
+.columns .col:last-child {
     background-image:url(../img/img-3.jpg)
 }
 
 
 /* colonne testo */
-.main-container .columns-text .col-text:nth-child(2) {
+.columns-text .col-text:nth-child(2) {
     width: 60%;
     padding: 0 20px;
 }
 
-.main-container .columns-text .col-text .article-title {
+.columns-text .col-text .article-title {
     margin: 10px 0 10px 0;
     color: black;
 }
